@@ -107,16 +107,9 @@ namespace p4g64.patch.jyokyohelp
 
             LogDebug($"GetCustomDatJyokyoHelpMessage: skill {skillID} -> msg {result}");
 
-            int datJyokyoHelpMessage = 0;
-
             if (_msgRedirect.TryGetValue(skillID, out var newID))
             {
-                datJyokyoHelpMessage = newID;
-            }
-
-            if (datJyokyoHelpMessage > -1)
-            {
-                result = datJyokyoHelpMessage;
+                result = newID;
                 LogDebug($"Redirected: skill {skillID} -> msg {result}");
             }
             

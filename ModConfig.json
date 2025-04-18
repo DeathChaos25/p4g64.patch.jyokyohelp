@@ -2,7 +2,7 @@
   "ModId": "p4g64.patch.jyokyohelp",
   "ModName": "Custom In-Combat Skill Effect Text",
   "ModAuthor": "DeathChaos",
-  "ModVersion": "1.0.0",
+  "ModVersion": "1.0.1",
   "ModDescription": "Allows for mods to have a custom effect description when using certain skills in combat (such as stat up skills)",
   "ModDll": "p4g64.patch.jyokyohelp.dll",
   "ModIcon": "Preview.png",
